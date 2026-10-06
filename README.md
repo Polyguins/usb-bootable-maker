@@ -1,23 +1,11 @@
-# Lasso Frontend
+# bootable usb maker
 
-## Getting Started
-once you clone the repo, go into the root and run these commands <br>
+makes bootable usbs from isos. windows, linux, whatever.
 
-`npm i`<br>
-`npm start`
+## usage
 
-go to http://localhost:3000
+1. download exe from releases
+2. pick iso and usb drive
+3. flash
 
-
-## Available Scripts
-
-### `npm start`
-### `npm test`
-### `npm run build`
-### `npm run eject`
-### `npm run build` fails to minify
-
-# current collaborators
-
-Dylan Miller,
-Tony Flores
+warns you which drive is getting wiped. gpt/mbr picker for uefi
